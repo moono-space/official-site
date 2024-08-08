@@ -12,20 +12,10 @@ export function HeroSection(): React.ReactElement {
 
       <h2 className="text-2xl laptop:text-3xl font-medium !leading-normal">
         We start from{' '}
-        <span className="text-foreground/60 text-fuchsia-600 cursor-pointer">
-          research
-        </span>
-        ,
-        <span className="text-foreground/60 text-orange-600 cursor-pointer">
-          {' '}
-          design
-        </span>
-        , and{' '}
-        <span className="text-foreground/60 text-blue-600 cursor-pointer">
-          {' '}
-          develop
-        </span>{' '}
-        small application and focus on improve the apps along the way
+        <span className="text-fuchsia-600 cursor-pointer">research</span>,
+        <span className="text-orange-600 cursor-pointer"> design</span>, and{' '}
+        <span className="text-blue-600 cursor-pointer"> develop</span> small
+        application and focus on improve the apps along the way
       </h2>
     </section>
   )
