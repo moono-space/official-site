@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   publisher: 'Moono',
   creator: 'Moono',
   metadataBase: new URL(config.app.host),
+  verification: {
+    google: 'dROSrnOBtqR9nS3JhsxugvvrgQkfwO_8SEn72tfM7rY',
+  },
 }
 
 export default function RootLayout({
